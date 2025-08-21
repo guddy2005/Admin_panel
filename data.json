@@ -1,0 +1,462 @@
+{
+  "userProfile": {
+    "id": "user001",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "avatar": "/images/avatars/john-doe.jpg",
+    "role": "Admin",
+    "department": "IT",
+    "joinDate": "2023-01-15",
+    "lastLogin": "2024-01-20T10:30:00Z",
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "timezone": "UTC-5",
+      "notifications": true
+    }
+  },
+  "dashboardStats": {
+    "overview": {
+      "totalUsers": 15420,
+      "activeUsers": 12847,
+      "totalRevenue": 892450.75,
+      "monthlyGrowth": 12.5,
+      "newSignups": 324,
+      "conversionRate": 8.7
+    },
+    "kpiCards": [
+      {
+        "id": "revenue",
+        "title": "Total Revenue",
+        "value": "$892,450",
+        "change": "+12.5%",
+        "trend": "up",
+        "icon": "dollar-sign"
+      },
+      {
+        "id": "users",
+        "title": "Active Users",
+        "value": "12,847",
+        "change": "+8.2%",
+        "trend": "up",
+        "icon": "users"
+      },
+      {
+        "id": "orders",
+        "title": "Total Orders",
+        "value": "3,240",
+        "change": "-2.1%",
+        "trend": "down",
+        "icon": "shopping-cart"
+      },
+      {
+        "id": "conversion",
+        "title": "Conversion Rate",
+        "value": "8.7%",
+        "change": "+1.3%",
+        "trend": "up",
+        "icon": "target"
+      }
+    ]
+  },
+  "chartData": {
+    "salesChart": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "datasets": [
+        {
+          "label": "2024 Sales",
+          "data": [
+            65000, 75000, 80000, 81000, 96000, 87000, 90000, 95000, 85000,
+            92000, 88000, 98000
+          ],
+          "borderColor": "#3b82f6",
+          "backgroundColor": "rgba(59, 130, 246, 0.1)"
+        },
+        {
+          "label": "2023 Sales",
+          "data": [
+            55000, 65000, 70000, 71000, 86000, 77000, 80000, 85000, 75000,
+            82000, 78000, 88000
+          ],
+          "borderColor": "#10b981",
+          "backgroundColor": "rgba(16, 185, 129, 0.1)"
+        }
+      ]
+    },
+    "userGrowthChart": {
+      "labels": [
+        "Week 1",
+        "Week 2",
+        "Week 3",
+        "Week 4",
+        "Week 5",
+        "Week 6",
+        "Week 7"
+      ],
+      "data": [1200, 1900, 3000, 5000, 2000, 3000, 4500]
+    },
+    "trafficSources": [
+      {
+        "source": "Organic Search",
+        "percentage": 45,
+        "value": 28450,
+        "color": "#3b82f6"
+      },
+      {
+        "source": "Direct",
+        "percentage": 25,
+        "value": 15780,
+        "color": "#10b981"
+      },
+      {
+        "source": "Social Media",
+        "percentage": 15,
+        "value": 9470,
+        "color": "#f59e0b"
+      },
+      {
+        "source": "Email",
+        "percentage": 10,
+        "value": 6315,
+        "color": "#ef4444"
+      },
+      {
+        "source": "Referral",
+        "percentage": 5,
+        "value": 3160,
+        "color": "#8b5cf6"
+      }
+    ]
+  },
+  "recentActivities": [
+    {
+      "id": "act001",
+      "user": "Alice Johnson",
+      "action": "Created new project",
+      "target": "Website Redesign",
+      "timestamp": "2024-01-20T14:30:00Z",
+      "type": "create",
+      "avatar": "/images/avatars/alice.jpg"
+    },
+    {
+      "id": "act002",
+      "user": "Bob Smith",
+      "action": "Updated task status",
+      "target": "Bug Fix #1234",
+      "timestamp": "2024-01-20T13:15:00Z",
+      "type": "update",
+      "avatar": "/images/avatars/bob.jpg"
+    },
+    {
+      "id": "act003",
+      "user": "Carol Davis",
+      "action": "Completed milestone",
+      "target": "Phase 1 Development",
+      "timestamp": "2024-01-20T11:45:00Z",
+      "type": "complete",
+      "avatar": "/images/avatars/carol.jpg"
+    },
+    {
+      "id": "act004",
+      "user": "David Wilson",
+      "action": "Added new member",
+      "target": "Development Team",
+      "timestamp": "2024-01-20T09:20:00Z",
+      "type": "add",
+      "avatar": "/images/avatars/david.jpg"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif001",
+      "title": "System Update Available",
+      "message": "A new system update is available for installation.",
+      "type": "info",
+      "timestamp": "2024-01-20T15:00:00Z",
+      "read": false,
+      "priority": "medium"
+    },
+    {
+      "id": "notif002",
+      "title": "Payment Received",
+      "message": "Payment of $2,500 has been received from client ABC Corp.",
+      "type": "success",
+      "timestamp": "2024-01-20T12:30:00Z",
+      "read": false,
+      "priority": "high"
+    },
+    {
+      "id": "notif003",
+      "title": "Server Maintenance",
+      "message": "Scheduled server maintenance will begin at 2:00 AM UTC.",
+      "type": "warning",
+      "timestamp": "2024-01-19T18:00:00Z",
+      "read": true,
+      "priority": "high"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj001",
+      "name": "E-commerce Platform",
+      "description": "Building a modern e-commerce platform with React and Node.js",
+      "status": "in-progress",
+      "progress": 75,
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-15",
+      "budget": 85000,
+      "spent": 63750,
+      "team": ["john.doe", "alice.johnson", "bob.smith"],
+      "priority": "high",
+      "client": "TechCorp Inc."
+    },
+    {
+      "id": "proj002",
+      "name": "Mobile App Development",
+      "description": "Cross-platform mobile app using React Native",
+      "status": "planning",
+      "progress": 15,
+      "startDate": "2024-02-01",
+      "endDate": "2024-08-30",
+      "budget": 120000,
+      "spent": 18000,
+      "team": ["carol.davis", "david.wilson"],
+      "priority": "medium",
+      "client": "StartupXYZ"
+    },
+    {
+      "id": "proj003",
+      "name": "Data Analytics Dashboard",
+      "description": "Business intelligence dashboard for data visualization",
+      "status": "completed",
+      "progress": 100,
+      "startDate": "2023-08-15",
+      "endDate": "2023-12-20",
+      "budget": 45000,
+      "spent": 42500,
+      "team": ["john.doe", "carol.davis"],
+      "priority": "low",
+      "client": "DataCorp"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task001",
+      "title": "Design user interface mockups",
+      "description": "Create high-fidelity mockups for the main application screens",
+      "status": "in-progress",
+      "priority": "high",
+      "assignee": "alice.johnson",
+      "projectId": "proj001",
+      "dueDate": "2024-01-25",
+      "createdDate": "2024-01-15",
+      "tags": ["design", "ui/ux", "mockups"]
+    },
+    {
+      "id": "task002",
+      "title": "Implement authentication system",
+      "description": "Set up JWT-based authentication with login/logout functionality",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "bob.smith",
+      "projectId": "proj001",
+      "dueDate": "2024-01-30",
+      "createdDate": "2024-01-18",
+      "tags": ["backend", "auth", "security"]
+    },
+    {
+      "id": "task003",
+      "title": "Database optimization",
+      "description": "Optimize database queries and implement caching strategies",
+      "status": "completed",
+      "priority": "medium",
+      "assignee": "john.doe",
+      "projectId": "proj003",
+      "dueDate": "2024-01-20",
+      "createdDate": "2024-01-10",
+      "tags": ["database", "performance", "optimization"]
+    }
+  ],
+  "users": [
+    {
+      "id": "user001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "Admin",
+      "department": "IT",
+      "status": "active",
+      "avatar": "/images/avatars/john-doe.jpg",
+      "joinDate": "2023-01-15",
+      "lastActive": "2024-01-20T10:30:00Z"
+    },
+    {
+      "id": "user002",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "role": "Designer",
+      "department": "Design",
+      "status": "active",
+      "avatar": "/images/avatars/alice.jpg",
+      "joinDate": "2023-03-22",
+      "lastActive": "2024-01-20T09:45:00Z"
+    },
+    {
+      "id": "user003",
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "role": "Developer",
+      "department": "Engineering",
+      "status": "active",
+      "avatar": "/images/avatars/bob.jpg",
+      "joinDate": "2023-02-10",
+      "lastActive": "2024-01-19T16:20:00Z"
+    },
+    {
+      "id": "user004",
+      "name": "Carol Davis",
+      "email": "carol.davis@example.com",
+      "role": "Project Manager",
+      "department": "Operations",
+      "status": "active",
+      "avatar": "/images/avatars/carol.jpg",
+      "joinDate": "2022-11-05",
+      "lastActive": "2024-01-20T11:45:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order001",
+      "orderNumber": "ORD-2024-001",
+      "customer": {
+        "name": "TechCorp Inc.",
+        "email": "orders@techcorp.com"
+      },
+      "amount": 15420.5,
+      "status": "completed",
+      "orderDate": "2024-01-18T14:30:00Z",
+      "items": [
+        {
+          "id": "item001",
+          "name": "Premium Dashboard License",
+          "quantity": 5,
+          "price": 2500.0
+        },
+        {
+          "id": "item002",
+          "name": "Support Package",
+          "quantity": 1,
+          "price": 2920.5
+        }
+      ]
+    },
+    {
+      "id": "order002",
+      "orderNumber": "ORD-2024-002",
+      "customer": {
+        "name": "StartupXYZ",
+        "email": "billing@startupxyz.com"
+      },
+      "amount": 8750.0,
+      "status": "pending",
+      "orderDate": "2024-01-19T09:15:00Z",
+      "items": [
+        {
+          "id": "item003",
+          "name": "Basic License",
+          "quantity": 10,
+          "price": 750.0
+        },
+        {
+          "id": "item004",
+          "name": "Setup Service",
+          "quantity": 1,
+          "price": 1250.0
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "general": {
+      "siteName": "Dashboard Pro",
+      "siteUrl": "https://dashboard.example.com",
+      "timezone": "UTC-5",
+      "dateFormat": "MM/DD/YYYY",
+      "currency": "USD",
+      "language": "en"
+    },
+    "features": {
+      "enableNotifications": true,
+      "enableDarkMode": true,
+      "enableAnalytics": true,
+      "enableChat": false,
+      "maintenanceMode": false
+    },
+    "security": {
+      "twoFactorAuth": true,
+      "sessionTimeout": 1440,
+      "passwordPolicy": {
+        "minLength": 8,
+        "requireUppercase": true,
+        "requireNumbers": true,
+        "requireSymbols": true
+      }
+    }
+  },
+  "navigation": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "icon": "home",
+      "path": "/dashboard",
+      "active": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "icon": "folder",
+      "path": "/projects",
+      "active": false
+    },
+    {
+      "id": "tasks",
+      "label": "Tasks",
+      "icon": "check-square",
+      "path": "/tasks",
+      "active": false
+    },
+    {
+      "id": "users",
+      "label": "Users",
+      "icon": "users",
+      "path": "/users",
+      "active": false
+    },
+    {
+      "id": "analytics",
+      "label": "Analytics",
+      "icon": "bar-chart",
+      "path": "/analytics",
+      "active": false
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "icon": "settings",
+      "path": "/settings",
+      "active": false
+    }
+  ]
+}
