@@ -257,18 +257,20 @@ const Reports = () => {
       </div>
 
       <div className="bg-white rounded-lg shadow p-6 mb-8">
-        <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+<div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 items-start sm:items-center">
+
           <div className="flex items-center space-x-2">
             <Calendar size={20} className="text-gray-400" />
             <span className="text-sm font-medium text-gray-700">
               Date Range:
             </span>
           </div>
-          <select
-            className="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            value={dateRange}
-            onChange={(e) => setDateRange(e.target.value)}
-          >
+         <select
+  className="w-full sm:w-auto border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+  value={dateRange}
+  onChange={(e) => setDateRange(e.target.value)}
+>
+
             {dateRanges.map((range) => (
               <option key={range.value} value={range.value}>
                 {range.label}
@@ -354,7 +356,7 @@ const Reports = () => {
               {recentReports.map((report, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
+                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
                 >
                   <div className="flex items-center space-x-3">
                     <div className="p-2 bg-gray-100 rounded-lg">
