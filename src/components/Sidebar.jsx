@@ -68,11 +68,11 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, setIsOpen }) => {
     <li key={item.name}>
       <NavLink
         to={item.href}
-        end={item.href === "/home"}   // 👈 sirf Dashboard ke liye exact match
+        end={item.href === "/home"}  
       >
         {({ isActive }) => (
           <div
-            onClick={() => setIsOpen(false)} // close sidebar on mobile
+            onClick={() => setIsOpen(false)} 
             className={`flex items-center transition-all duration-300 rounded-lg border-l-4 ${
               isCollapsed ? "p-3 justify-center" : "py-4"
             } ${
@@ -81,7 +81,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, setIsOpen }) => {
                 : "text-gray-300 hover:bg-gray-700 hover:text-white border-l-transparent hover:border-l-gray-500"
             }`}
           >
-            <item.icon size={isCollapsed ? 28 : 30} className="pl-2" />
+            <item.icon size={isCollapsed ? 32 : 28} className={ `${ isCollapsed ? "pl-0":"pl-2"}`}  />
             {!isCollapsed && (
               <span className="ml-4 hidden md:inline">{item.name}</span>
             )}
